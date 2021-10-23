@@ -1,0 +1,35 @@
+10/23/2021 10:18:26 AM starting thread (client mode): 0x541f7198
+10/23/2021 10:18:26 AM Local version/idstring: SSH-2.0-paramiko_2.8.0
+10/23/2021 10:18:27 AM Remote version/idstring: SSH-2.0-Syncplify_Me_Server
+10/23/2021 10:18:27 AM Connected (version 2.0, client Syncplify_Me_Server)
+10/23/2021 10:18:27 AM kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group1-sha1', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'ecdsa-sha2-nistp521'] client encrypt:['blowfish-cbc', 'twofish256-cbc', 'twofish192-cbc', 'twofish128-cbc', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'serpent256-cbc', 'serpent192-cbc', 'serpent128-cbc', 'arcfour', 'idea-cbc', 'cast128-cbc', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'blowfish-ctr', 'twofish128-ctr', 'twofish192-ctr', 'twofish256-ctr', 'serpent128-ctr', 'serpent192-ctr', 'serpent256-ctr', 'idea-ctr', 'cast128-ctr', 'arcfour128', 'arcfour256'] server encrypt:['blowfish-cbc', 'twofish256-cbc', 'twofish192-cbc', 'twofish128-cbc', 'aes256-cbc', 'aes192-cbc', 'aes128-cbc', 'serpent256-cbc', 'serpent192-cbc', 'serpent128-cbc', 'arcfour', 'idea-cbc', 'cast128-cbc', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'blowfish-ctr', 'twofish128-ctr', 'twofish192-ctr', 'twofish256-ctr', 'serpent128-ctr', 'serpent192-ctr', 'serpent256-ctr', 'idea-ctr', 'cast128-ctr', 'arcfour128', 'arcfour256'] client mac:['hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd', 'hmac-ripemd160@openssh.com', 'hmac-sha256@ssh.com', 'umac-32@openssh.com', 'umac-64@openssh.com', 'umac-96@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512'] server mac:['hmac-sha1', 'hmac-ripemd160', 'hmac-ripemd', 'hmac-ripemd160@openssh.com', 'hmac-sha256@ssh.com', 'umac-32@openssh.com', 'umac-64@openssh.com', 'umac-96@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512'] client compress:['none', 'zlib', 'zlib@openssh.com'] server compress:['none', 'zlib', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+10/23/2021 10:18:27 AM Kex agreed: diffie-hellman-group-exchange-sha1
+10/23/2021 10:18:27 AM HostKey agreed: ecdsa-sha2-nistp521
+10/23/2021 10:18:27 AM Cipher agreed: aes128-ctr
+10/23/2021 10:18:27 AM MAC agreed: hmac-sha2-256
+10/23/2021 10:18:27 AM Compression agreed: none
+10/23/2021 10:18:27 AM Got server p (2048 bits)
+10/23/2021 10:18:27 AM kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+10/23/2021 10:18:27 AM Switch to new keys ...
+10/23/2021 10:18:27 AM Attempting password auth...
+10/23/2021 10:18:27 AM userauth is OK
+10/23/2021 10:18:27 AM Auth banner: b'Syncplify.me Server! v5.0.36.536 SSH-2/SFTP Service Ready\r\n'
+10/23/2021 10:18:27 AM Authentication (password) successful!
+10/23/2021 10:18:27 AM [chan 0] Max packet in: 32768 bytes
+10/23/2021 10:18:27 AM [chan 0] Max packet out: 32768 bytes
+10/23/2021 10:18:27 AM Secsh channel 0 opened.
+10/23/2021 10:18:27 AM [chan 0] Sesch channel 0 request ok
+10/23/2021 10:18:28 AM [chan 0] Opened sftp connection (server version 3)
+10/23/2021 10:18:28 AM [chan 0] stat(b'EOR/EORList.json')
+10/23/2021 10:18:28 AM [chan 0] stat(b'EOR/EORList.json')
+10/23/2021 10:18:28 AM [chan 0] open(b'EOR/EORList.json', 'rb')
+10/23/2021 10:18:28 AM [chan 0] open(b'EOR/EORList.json', 'rb') -> 00000000
+10/23/2021 10:18:28 AM [chan 0] close(00000000)
+10/23/2021 10:18:28 AM [chan 0] stat(b'DWI/JSONDWI.json')
+10/23/2021 10:18:28 AM [chan 0] stat(b'DWI/JSONDWI.json')
+10/23/2021 10:18:28 AM [chan 0] open(b'DWI/JSONDWI.json', 'rb')
+10/23/2021 10:18:28 AM [chan 0] open(b'DWI/JSONDWI.json', 'rb') -> 00000000
+10/23/2021 10:18:29 AM [chan 0] close(00000000)
+10/23/2021 10:18:29 AM [chan 0] sftp session closed.
+10/23/2021 10:18:29 AM [chan 0] EOF sent (0)
+10/23/2021 10:18:29 AM EOF in transport thread
