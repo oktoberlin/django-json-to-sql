@@ -45,6 +45,7 @@ class Importjsondwisql(models.Model):
     cy_gateout_date = models.CharField(db_column='CY_GATEOUT_DATE', max_length=50, blank=True, null=True)  # Field name made lowercase.    load_date = models.CharField(db_column='LOAD_DATE', max_length=50, blank=True, null=True)  # Field name made lowercase.
     sp2 = models.CharField(db_column='SP2', max_length=50, blank=True, null=True)  # Field name made lowercase.
     dmg = models.CharField(db_column='DMG', max_length=50, blank=True, null=True)  # Field name made lowercase.
+    ok = models.BooleanField(db_column='OK', max_length=50, blank=True, null=True)
 
     class Meta:
         #managed = False
